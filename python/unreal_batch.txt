@@ -1,0 +1,3 @@
+cd C:\unreal\UE_4.24\Engine\Binaries\Win64
+UE4Editor "C:\Users\Marieke\Documents\Unreal Projects\AutomationTesting\AutomationTesting.uproject" -ExecCmds="some command; quit;" -buildmachine -stdout -unattended -nopause -nosplash
+UE4Editor "C:\Users\Marieke\Documents\Unreal Projects\AutomationTesting\AutomationTesting.uproject" -run=pythonscript -script="C:\Users\Marieke\Documents\Unreal_Testing\export_script.py" -stdout -nosplash -buildmachine
