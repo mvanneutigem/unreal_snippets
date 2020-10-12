@@ -4,7 +4,6 @@
 #include "Exporters/LevelExporterFbx.h"
 #include "UObject/UObjectGlobals.h"
 
-UFUNCTION(BlueprintCallable, Category = FBXExport)
 static FAssetData* ExportLevelAsFBX()
 {
 	FName LevelName = FName(TEXT("Primitives"));
