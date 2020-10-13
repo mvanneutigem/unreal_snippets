@@ -9,4 +9,7 @@ Executing commands from commandline:
 UE4Editor "\path\to\project\project.uproject" -ExecCmds="some command; quit;" -buildmachine -stdout -unattended -nopause -nosplash
 
 Executing python scripts from commandline:
-UE4Editor  "\path\to\project\project.uproject" -run=pythonscript -script="\path\to\somescript.py" -stdout -nosplash -buildmachine
+UE4Editor "\path\to\project\project.uproject" -run=pythonscript -script="\path\to\somescript.py" -stdout -nosplash -buildmachine
+
+Executing commandlets from commandline:
+UE4Editor-Cmd  "\path\to\project\project.uproject" -run=CommandletExportFBXCommandlet "Primitives"
