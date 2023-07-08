@@ -1,6 +1,6 @@
 # unreal_snippets
 
-For my own use, some snippets for reference.
+For my own use, some unreal snippets for future reference.
 
 My local install directory: 
 C:\unreal\UE_4.24\Engine\Binaries\Win64
